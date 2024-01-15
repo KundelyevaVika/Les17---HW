@@ -18,6 +18,11 @@ Worker::Worker(string name_, int birthYear_, string poition_, float salary_, str
 	background = background_;
 }
 
+int Worker::getBirthYear() const
+{
+	return birthYear;
+}
+
 void Worker::show() const
 {
 	cout << "Name: " << name << endl;

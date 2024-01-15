@@ -14,5 +14,6 @@ class Worker
 public:
 	Worker();
 	Worker(string name_, int birthYear_, string poition_, float salary_, string background_);
+	int getBirthYear()const;
 	void show()const;
 };
